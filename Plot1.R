@@ -18,6 +18,6 @@ hist(subdata$Global_active_power,col = "red",xlim = c(0,6), axes = FALSE,
      main = "Global Active Power", xlab = "Global Active Power(kilowatts)")
 axis(1,c(0,2,4,6))
 axis(2,c(0,200,400,600,800,1000,1200))
-dev.copy(jpeg,"plot1.jpg")
+dev.copy(png,"plot1.png")
 dev.off()
 

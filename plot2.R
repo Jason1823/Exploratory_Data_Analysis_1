@@ -18,5 +18,5 @@ subdata$Time <- strptime(time, "%Y-%m-%d %H:%M:%S")
 ##making plot2
 with(subdata, plot(Time, Global_active_power, type = "l",
                    ylab = "Global Active Power (kilowatts)",xlab = ""))
-dev.copy(jpeg,"plot2.jpg")
+dev.copy(png,"plot2.png")
 dev.off()

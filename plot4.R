@@ -35,5 +35,5 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3
 ##Fourth Plot
 with(subdata, plot(Time, Global_reactive_power, type = "l",
                    ylab = "Global_reactive_power",xlab = "datetime"))
-dev.copy(jpeg,"plot4.jpg")
+dev.copy(png,"plot4.png")
 dev.off()
